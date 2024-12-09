@@ -15,5 +15,5 @@ lose some realism, but in a barely noticable manner.
 In each stage, the arrangement (positions) of the pins is determined by parsing from a "stage text file" with specific syntax. For example, the following string represents 3 adjucant pins: "v x cv x v", where 'c' represents the center of the arrangement. Similarily, the following string represents a column of 3 pins but without a center pin: <br />v<br />cx<br />v
 
 ## Weight And Friction Parameters
-These were taken from the real world - for example: An average bowling ball weighs about 6kg and a bolwing pin 1.53kg. Therefore, in the RigidBody of the ball has "Mass = 6" and a pin has "Mass = 1.53".
+These were taken from the real world - for example: An average bowling ball weighs about 6kg and a bowling pin about 1.53kg. Therefore, in the game the RigidBody of the ball has "Mass = 6" and a pin has "Mass = 1.53".
 
