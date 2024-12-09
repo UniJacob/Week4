@@ -1,10 +1,10 @@
 https://unijacob.itch.io/week-4
 
-### Description
+## Description
 A 3D bowling-like game where the the goal is to knock all of the pins in 2 or less ball-throws. There are 2 stages (where the 2nd one is harder), 
 but more can be created with ease using only a text editor.
 
-### Structure
+## Structure
 The "Stage Manager" is the heart of the game: It's the component responsible for the game logic and the instansiation and positioning of other game-objects.
 
 The (bowling) ball is a simple game object with a sphere-collider that is also scripted by [DragAndLaunch](https://github.com/UniJacob/Week4/blob/main/Assets/Scripts/DragAndLaunch.cs), which allows it to be aimed and thrown at the pins.
